@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0050a4">
+  <meta name="description" content="Digital business card for Soni Sebastian, Solution Architect at PT. NTT Indonesia.">
+  <title>Soni Sebastian | Digital Business Card</title>
+  <style>
+    :root { --blue:#0050a4; --navy:#12314f; --text:#172434; --muted:#5f6e7d; --line:#d9e2ea; --bg:#edf3f8; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; font-family:Arial, Helvetica, sans-serif; color:var(--text); background:linear-gradient(145deg,#f7fafc 0%,#e5edf4 100%); display:grid; place-items:center; padding:24px; }
+    .card { width:min(100%,460px); background:#fff; border:1px solid #e0e7ed; box-shadow:0 24px 60px rgba(18,49,79,.16); border-radius:22px; overflow:hidden; }
+    .accent { height:8px; background:linear-gradient(90deg,var(--blue),#1585d3); }
+    .content { padding:28px; }
+    .brand { display:flex; justify-content:flex-end; margin-bottom:34px; }
+    .brand img { width:205px; max-width:56%; height:auto; display:block; mix-blend-mode:multiply; }
+    h1 { margin:0 0 6px; font-size:31px; line-height:1.1; letter-spacing:-.5px; }
+    .role { margin:0; color:var(--muted); font-size:18px; }
+    .divider { height:1px; background:var(--line); margin:26px 0; }
+    .company { margin:0 0 10px; font-size:19px; font-weight:700; }
+    .address,.legal { color:var(--muted); line-height:1.55; margin:0; }
+    .contact { margin-top:22px; display:grid; gap:11px; }
+    .contact a { color:var(--navy); text-decoration:none; display:flex; align-items:center; gap:11px; line-height:1.35; overflow-wrap:anywhere; }
+    .icon { flex:0 0 34px; width:34px; height:34px; border-radius:10px; display:grid; place-items:center; color:#fff; background:var(--blue); font-size:16px; font-weight:700; }
+    .actions { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:27px; }
+    .btn { min-height:48px; border-radius:12px; padding:13px 14px; text-align:center; font-weight:700; text-decoration:none; border:1px solid var(--blue); }
+    .primary { color:#fff; background:var(--blue); }
+    .secondary { color:var(--blue); background:#fff; }
+    .legal { margin-top:25px; padding-top:18px; border-top:1px solid var(--line); font-size:12px; text-align:center; }
+    @media (max-width:380px) { body{padding:12px}.content{padding:22px}.actions{grid-template-columns:1fr}h1{font-size:27px} }
+  </style>
+</head>
+<body>
+  <main class="card" aria-label="Digital business card">
+    <div class="accent"></div>
+    <section class="content">
+      <div class="brand"><img src="ntt-data-logo.jpg" alt="NTT DATA"></div>
+      <h1>Soni Sebastian</h1>
+      <p class="role">Solution Architect</p>
+      <div class="divider"></div>
+      <p class="company">PT. NTT Indonesia</p>
+      <p class="address">Wisma 46 Kota BNI, Suite 5.03<br>Jl. Jend. Sudirman Kav. 1<br>Jakarta 10220, Indonesia</p>
+      <div class="contact">
+        <a href="tel:+622186657777"><span class="icon">T</span><span>+62 21 8665 7777</span></a>
+        <a href="tel:+628561529022"><span class="icon">M</span><span>+62 856 1529 022</span></a>
+        <a href="mailto:soni.sebastian@global.ntt"><span class="icon">@</span><span>soni.sebastian@global.ntt</span></a>
+      </div>
+      <div class="actions">
+        <a class="btn primary" href="soni-sebastian.vcf" download>Save Contact</a>
+        <a class="btn secondary" href="mailto:soni.sebastian@global.ntt">Send Email</a>
+      </div>
+      <p class="legal">NTT Ltd. and its affiliates are NTT DATA, Inc. Companies</p>
+    </section>
+  </main>
+</body>
+</html>

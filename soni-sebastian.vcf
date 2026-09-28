@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Sebastian;Soni;;;
+FN:Soni Sebastian
+ORG:PT. NTT Indonesia
+TITLE:Solution Architect
+TEL;TYPE=WORK,VOICE:+622186657777
+TEL;TYPE=CELL,VOICE:+628561529022
+EMAIL;TYPE=INTERNET,WORK:soni.sebastian@global.ntt
+ADR;TYPE=WORK:;;Wisma 46 Kota BNI, Suite 5.03, Jl. Jend. Sudirman Kav. 1;Jakarta;;10220;Indonesia
+END:VCARD
